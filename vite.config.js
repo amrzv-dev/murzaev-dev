@@ -9,5 +9,5 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
-  base: "/murzaev-dev",
+  base: "./murzaev-dev",
 })
