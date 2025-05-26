@@ -5,9 +5,9 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/murzaev-dev",
   plugins: [
     tailwindcss(),
     react()
   ],
-  base: "/murzaev-dev",
 })
