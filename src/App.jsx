@@ -88,7 +88,7 @@ function App() {
               </>
             }
           />
-          {/* About Page */}}
+          {/* About Page */}
           <Route path="/about" element={<About />} />
           {/* Projects Page */}
           <Route path="/projects" element={<Projects projects={projects} />} />
