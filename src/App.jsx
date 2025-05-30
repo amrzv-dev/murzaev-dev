@@ -25,7 +25,7 @@ function App() {
   ];
 
   return (
-    <Router>
+    <Router basename="/murzaev-dev">
       <main className="text-center px-0 min-h-screen flex flex-col">
         <Routes>
           {/* Home Page */}
