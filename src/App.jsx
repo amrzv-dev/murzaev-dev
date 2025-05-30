@@ -5,7 +5,6 @@ import Projects from "./Projects"; // Import the Projects component
 import stones4uscreenshot from "./assets/stones4uscreenshot.png";
 import azmotorsscreenshot from "./assets/azmotorsscreenshot.png";
 import "@fortawesome/fontawesome-free/css/all.min.css";
-import { color } from "framer-motion";
 
 function App() {
   const projects = [
@@ -29,7 +28,7 @@ function App() {
     <Router>
       <main className="text-center px-0 min-h-screen flex flex-col">
         <Routes>
-          /* Home Page */
+          {/* Home Page */}
           <Route
             path="/"
             element={
@@ -40,7 +39,7 @@ function App() {
                       <ul className="gap-4 flex justify-center items-center text-2xl">
                         <a target="_blank" href="https://www.linkedin.com/in/am-swdeveloper/"><i className="fa-brands fa-linkedin icon-hover" style={{ color: "#ffffff" }}></i></a>
                         <a target="_blank" href="https://github.com/amrzv-dev"><i className="fa-brands fa-github-alt icon-hover" style={{ color: "#ffffff" }}></i></a>
-                        <i class="fa-solid fa-envelopes-bulk icon-hover" style={{ color: "#ffffff" }}></i>
+                        <i className="fa-solid fa-envelopes-bulk icon-hover" style={{ color: "#ffffff" }}></i>
                       </ul>
                     </div>
                   </div>
