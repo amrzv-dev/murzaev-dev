@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "./", // Use relative base path for local development
+  base: "/murzaev-dev", // Use repository name as base path for GitHub Pages
   plugins: [
     tailwindcss(),
     react()
